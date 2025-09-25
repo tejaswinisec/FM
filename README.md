@@ -65,14 +65,33 @@ MODEL GRAPH:
 
 
 Program
-
+```
+am=4.7;
+fm=377;
+fc=3770;
+fs=37700
+t=0:1/fs:2/fm;
+m=am*cos(2*3.14*fm*t);
+subplot(3,1,1);
+plot(t,m);
+ac=9.4;
+c=ac*cos(2*3.14*fc*t);
+subplot(3,1,2);
+plot(t,c);
+b=2.45;
+s=ac*cos((2*3.14*fc*t)+(b*sin(2*3.14*fm*t)));
+subplot(3,1,3);
+plot(t,s);
+```
 
 Output Waveform
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/86454925-e2e3-4b3a-bb4f-3053f56f9fbf" />
 
 
 
 Tabulation
 
+![WhatsApp Image 2025-09-25 at 21 01 20_a5371b8a](https://github.com/user-attachments/assets/d016ff38-1dbc-4d37-aa0f-d11e291e8900)
 
 
 Calculation
@@ -83,7 +102,7 @@ Frequency Deviation Practical =
 
 Modulation Index Practical	= 
 
-Modulation Index Theoretical	=
+Modulation Index Theoretical	= 2.45
 
 
 
