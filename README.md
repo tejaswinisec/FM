@@ -78,14 +78,14 @@ ac=9.4;
 c=ac*cos(2*3.14*fc*t);
 subplot(3,1,2);
 plot(t,c);
-b=5.65;
+b=2.45;
 s=ac*cos((2*3.14*fc*t)+(b*sin(2*3.14*fm*t)));
 subplot(3,1,3);
 plot(t,s);
 ```
 Output Waveform
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9b9a393d-c2df-4e8b-b8fd-db0aa2c9a469" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/51be0396-4baf-4d6a-9284-da6dfaac6f97" />
 
 
 Tabulation
